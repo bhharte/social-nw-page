@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;  
+}
+body{
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+    width: 850px;
+    height: 350px;
+    background-color: cornflowerblue;
+    margin: 10px auto;
+}
+article  img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: skyblue;
+    z-index: 2;
+    position: relative;
+    top: 175px;
+    left: 10px;
+}
+h2,h3{
+    color: white;
+    position: relative;
+    left: 25%;
+    top: 100px;
+    z-index: 2;
+}
+ul{
+    margin: 10px auto;
+    padding: 10px 0;
+}
+.main{
+    position: relative;
+    background: lightgray;
+    color: black;
+    top: 95px;
+    height: 40px;  
+    z-index: 1;
+}
+.main a{
+    font-size: 20px;
+}
+.main>ul>li{
+    display: inline;
+    position: relative;
+    left: 25%;
+    padding: 10px 20px;
+    
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 225px;
+    margin: 0 auto;
+    height: 50px;
+    list-style: none;
+    left: 300px;
+    position: relative;
+    
+
+}
+.social li{
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    
+    background: silver;
+    padding: 1px 2px 0px 2px;
+
+}
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+
+#like{
+    padding: 2px;
+    margin: 5px;
+    border-radius: 25%;
+}
+li .ham{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.column{
+      
+    position: relative;
+    margin: 0 auto;
+}
+.left{
+    width: 328px;
+    height: 1000px;
+    left: -259px;
+    position: relative;
+}
+
+.ltitle{
+    width: auto;
+    height: 50px;
+    position: relative;
+    background: navy;
+}
+.ltitle #boxtext{
+    height: 100px;
+    width: auto;
+    background: white;
+    position: relative;
+    top: 22px;
+}
+.left .ltitle h2{
+    top: 10px;
+    left: 120px;
+    padding: 0 auto;
+
+}
+
+#lorem{
+    height: 100px;
+    width: auto;
+    top: 20px;    
+    padding: 0 auto;
+    background: silver;
+    position: relative;
+    border: 1px solid black;
+}
+.right{
+    width: 512px;
+    height: 1000px;
+    left: 169px;
+    top: -1000px;
+    position: relative;
+
+}
+
+.rtitle{
+    width: auto;
+    height: 50px;
+    position: relative;
+    background: navy;
+}
+.right .rtitle h2{
+    top: 10px;
+    left: 175px;
+    padding: 0 auto;
+
+}
+.ltitle .about{
+    height: 150px;
+    width: auto;
+    border: 1px black solid;
+    position: relative;
+}
+
+#abt{
+    height: 50px;
+    width: auto;
+    position: relative;
+    border: 1px solid black;
+    background: navy;
+    top: 100x;
+    text-align: center  ;
+    left: 0px;
+    padding: 5px auto;
+}
+
+#abttxt{ 
+    height: 100px;
+    width: auto;
+    top: 100px;    
+    padding: 0 auto;
+    background: silver;
+    position: relative;
+    border: 1px solid black;
+}
+
+#rtxt{
+    height: 100px;
+    width: auto;
+    top: 20px;    
+    padding: 0 auto;
+    background: silver;
+    position: relative;
+    border: 1px solid black;
+}
+
